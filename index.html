@@ -1,24 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="principal">
   <head>
     <meta charset="utf-8" />
-    <title>CyberUs - Spider</title>
+    <title>Cusco</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+
+      <div class="container-dog">
+          <div class="dog">
+            <div class="head">
+              <div class="ears"></div>
+              <div class="eyes"></div>
+              <div class="beard">
+                <div class="mouth">
+                  <div class="tongue"></div>
+                </div>
+              </div>
+            </div>
+            <div class="belt"></div>
+            <div class="stomach"></div>
+            <div class="legs">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+            <div class="tail"></div>
+          </div>
+          <h1 class="status"></h1>
+        </div>
+
+    <div class="hidden">
+      <p>Domain: <br /><span id="domain"></span></p>
+      <p>
+        Razão Social: <br />
+        <span id="owner"></span>
+      </p>
+      <p>
+        CNPJ: <br />
+        <span id="cnpj"></span>
+      </p>
+    </div>
+
     <script src="jquery-3.4.1.min.js"></script>
     <script src="extensions.js"></script>
     <script src="spider.js"></script>
-  </head>
-  <body>
-    <p>Domain: <br /><span id="domain"></span></p>
-    <p>
-      Razão Social: <br />
-      <span id="owner"></span>
-    </p>
-    <p>
-      CNPJ: <br />
-      <span id="cnpj"></span>
-    </p>
   </body>
 </html>
